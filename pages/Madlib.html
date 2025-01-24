@@ -10,10 +10,10 @@
 </head>
 <body class="madlibsBg">
 
-    <div class="madlibsGrid">
-        <div class="homeBtn">
-                <p>Home</p>
-        </div>
+    <div class="madlibsGrid none">
+        <a href="/index.html" class="homeBtn">
+            <p>Home</p>
+    </a>
 
         
             <h1 class="modeBox">Madlibs</h1>
@@ -23,34 +23,34 @@
 <form>
     <div class="grid gap-5 md:grid-cols-2">
         <div>
-            <input type="text" id="first_name" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Name 1" required />
+            <input type="text" id="input" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Name 1" required />
         </div>
         <div>
-            <input type="text" id="last_name" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Name 2" required />
+            <input type="text" id="input2" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Name 2" required />
         </div>
         <div>
-            <input type="text" id="company" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Store" required />
+            <input type="text" id="input3" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Store" required />
         </div>  
         <div>
-            <input type="tel" id="phone" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Beverage" required />
+            <input type="tel" id="input4" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Beverage" required />
         </div>
         <div>
-            <input type="url" id="website" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Snack" required />
+            <input type="text" id="input5" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Snack" required />
         </div>
         <div>
-            <input type="number" id="visitors" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Sport" required />
+            <input type="text" id="input6" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Sport" required />
         </div>
         <div>
-            <input type="text" id="first_name" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Movie" required />
+            <input type="text" id="input7" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Movie" required />
         </div>
         <div>
-            <input type="text" id="last_name" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Restaurant" required />
+            <input type="text" id="input8" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Restaurant" required />
         </div>
         <div>
-            <input type="text" id="first_name" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Vieogame" required />
+            <input type="text" id="input9" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Vieogame" required />
         </div>
         <div>
-            <input type="text" id="last_name" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Food" required />
+            <input type="text" id="input10" class="text-gray-900 font40 madlibsInputBox block w-full p-2.5 text-center" placeholder="Food" required />
         </div>
     </div>
 </form>
@@ -59,13 +59,13 @@
 
 <div class="donePlacement">
     <div class="flex justify-center">
-        <p class="doneBtn">Done</p>
+        <p id="doneBtn" class="doneBtn">Done</p>
     </div>
-    <p class="madlibBox mt-4"></p>
+    <p id="promptText" class="madlibBox mt-4"></p>
 </div>
 
     </div>
-
+<script src="/scripts/Madlib.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
 </body>
 </html>

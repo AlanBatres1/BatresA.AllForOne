@@ -11,6 +11,10 @@ body {
   font-size: 80px;
 }
 
+.hide{
+    display: none;
+}
+
 .homeGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -23,6 +27,7 @@ body {
   width: 250px;
   height: 325px;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 .yellow {
@@ -102,6 +107,14 @@ body {
   align-items: center;
 }
 
+.invisible{
+    background-color: transparent;
+    color: transparent;
+    grid-column: 3;
+    display: flex;
+    justify-content: end;
+}
+
 .modeBox {
   grid-column: 2;
   grid-row: 1;
@@ -127,7 +140,7 @@ body {
   height: 100px;
   background-color: #fef0f4;
   border-radius: 30px;
-  font-size: 40px;
+  font-size: 20px;
 }
 .font80 {
   font-size: 80px;
@@ -218,7 +231,7 @@ body {
   height: 100px;
   background-color: #fef0f4;
   border-radius: 30px;
-  font-size: 40px;
+  font-size: 20px;
   }
   .sumPlacement{
     grid-row: 3;
@@ -393,6 +406,7 @@ body {
     height: 325px;
     width: 275px;
     border-radius: 30px;
+    cursor: pointer;
   }
 
   .foodIcon{
@@ -465,6 +479,10 @@ body {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         display: block;
+    }
+
+    .resultBox{
+        height: 300px;
     }
 
     .promptBg{
@@ -547,3 +565,5 @@ body {
         gap: 25px;
     }
   }
+
+  

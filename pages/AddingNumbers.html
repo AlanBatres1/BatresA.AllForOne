@@ -11,9 +11,9 @@
 <body class="numbersBg">
 
     <div class="numbersGrid">
-        <div class="homeBtn">
-                <p>Home</p>
-        </div>
+        <a href="/index.html" class="homeBtn">
+            <p>Home</p>
+    </a>
 
         <div class="flex justify-center">
             <h1 class="modeBox">Adding Numbers</h1>
@@ -22,8 +22,8 @@
     <div class="mb-6 mt-6 inputField">
     <label for="default-input" class="block mb-2 text-center font80 textBg">Enter Numbers to Add</label>
     <div class="inputContainer flex mt-6">
-        <input type="text" id="default-input" class="inputBox2 text-center justify-start">
-        <input type="text" id="default-input" class="inputBox2 text-center justify-end">
+        <input type="text" id="input" class="inputBox2 text-center justify-start">
+        <input type="text" id="input2" class="inputBox2 text-center justify-end">
     </div>
 </div>
 
@@ -31,17 +31,17 @@
 
     <h1 class="text-center font80">Sum</h1>
     <div class="flex justify-center">
-        <p class="sumBox"></p>
+        <p id="promptText" class="sumBox text-center"></p>
     </div>
 </div>
 
 <div class="donePlacement">
     <div class="flex justify-center">
-        <p class="doneBtn">Done</p>
+        <p id="doneBtn" class="doneBtn">Done</p>
     </div>
 </div>
     </div>
-
+<script src="/scripts/AddingNumbers.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
 </body>
 </html>

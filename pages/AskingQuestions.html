@@ -11,31 +11,34 @@
 <body class="questionsBg">
 
     <div class="questionsGrid">
-        <div class="homeBtn">
-                <p>Home</p>
-        </div>
+        <a href="/index.html" class="homeBtn">
+            <p>Home</p>
+    </a>
 
         <div class="flex justify-center">
             <h1 class="modeBox">Asking Questions</h1>
         </div>
         
     <div class="mb-6 inputField mt-4">
-    <label for="default-input" class="block mb-2 text-center font80 promptBg">What is Your Name?</label>
-    <input type="text" id="default-input" class="inputBox text-center justify-center">
+    <label id="" for="default-input" class="block mb-2 text-center font80 promptBg">What is Your Name?</label>
+    <input type="text" id="input" class="inputBox text-center justify-center">
 </div>
 <div class="mb-6 inputField">
     <label for="default-input" class="block mb-2 text-center font80 promptBg2">What time did you Wake up?</label>
-    <input type="text" id="default-input" class="inputBox text-center justify-center">
+    <input type="text" id="input2" class="inputBox text-center justify-center">
 </div>
 
 <div class="donePlacement">
     <div class="flex justify-center">
-        <p class="doneBtn">Done</p>
+        <p id="doneBtn" class="doneBtn">Done</p>
+    </div>
+    <div class="flex justify-center">
+        <p id="promptText" class="block mb-2 mt-5 text-center font40 promptBg resultBox"></p>
     </div>
 </div>
 
     </div>
-
+<script src="/scripts/AskingQuestions.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
 </body>
 </html>
