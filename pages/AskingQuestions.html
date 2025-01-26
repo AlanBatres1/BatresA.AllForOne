@@ -1,44 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="/src/output.css">
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.css" rel="stylesheet" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
     <title>Asking Questions</title>
-</head>
-<body class="questionsBg">
-
+  </head>
+  <body class="questionsBg">
     <div class="">
-        <a href="/index.html" class="homeBtn">
-            <p>Home</p>
-    </a>
+      <a href="/index.html" class="homeBtn">
+        <p>Home</p>
+      </a>
 
+      <div class="flex justify-center">
+        <h1 class="modeBox">Asking Questions</h1>
+      </div>
+
+      <div class="mb-6 inputField mt-4">
+        <label
+          id=""
+          for="default-input"
+          class="block mb-2 text-center font40 promptBg"
+          >What is Your Name?</label
+        >
+        <input
+          type="text"
+          id="input"
+          class="inputBox text-center justify-center"
+        />
+      </div>
+      <div class="mb-6 inputField">
+        <label
+          for="default-input"
+          class="block mb-2 text-center font40 promptBg2"
+          >What time did you Wake up?</label
+        >
+        <input
+          type="text"
+          id="input2"
+          class="inputBox text-center justify-center"
+        />
+      </div>
+
+      <div class="donePlacement">
         <div class="flex justify-center">
-            <h1 class="modeBox">Asking Questions</h1>
+          <p id="doneBtn" class="doneBtn">Done</p>
         </div>
-        
-    <div class="mb-6 inputField mt-4">
-    <label id="" for="default-input" class="block mb-2 text-center font40 promptBg">What is Your Name?</label>
-    <input type="text" id="input" class="inputBox text-center justify-center">
-</div>
-<div class="mb-6 inputField">
-    <label for="default-input" class="block mb-2 text-center font40 promptBg2">What time did you Wake up?</label>
-    <input type="text" id="input2" class="inputBox text-center justify-center">
-</div>
-
-<div class="donePlacement">
-    <div class="flex justify-center">
-        <p id="doneBtn" class="doneBtn">Done</p>
+        <div class="flex justify-center">
+          <p
+            id="promptText"
+            class="block mb-2 mt-5 text-center font40 promptBg resultBox"
+          ></p>
+        </div>
+      </div>
     </div>
-    <div class="flex justify-center">
-        <p id="promptText" class="block mb-2 mt-5 text-center font40 promptBg resultBox"></p>
-    </div>
-</div>
-
-    </div>
-<script src="/scripts/AskingQuestions.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
-</body>
+    <script src="/scripts/AskingQuestions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
+  </body>
 </html>
