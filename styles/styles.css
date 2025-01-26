@@ -184,7 +184,7 @@ body {
 .promptBg2 {
   background-color: #fef0f4;
   border-radius: 30px;
-  width: 1100px;
+  width: 700px;
   height: 100px;
 }
 
@@ -416,9 +416,9 @@ body {
 
   /* Responsiveness */
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 768px) {
     .homeGrid{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         margin: 0;
         column-gap: 10px;
     }
@@ -566,4 +566,10 @@ body {
     }
   }
 
-  
+  @media screen and (max-width: 600px) {
+    .homeGrid{
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+        column-gap: 10px;
+    }
+}
