@@ -11,8 +11,8 @@ body {
   font-size: 80px;
 }
 
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
 
 .homeGrid {
@@ -101,12 +101,12 @@ body {
   align-items: center;
 }
 
-.invisible{
-    background-color: transparent;
-    color: transparent;
-    grid-column: 3;
-    display: flex;
-    justify-content: end;
+.invisible {
+  background-color: transparent;
+  color: transparent;
+  grid-column: 3;
+  display: flex;
+  justify-content: end;
 }
 
 .modeBox {
@@ -143,8 +143,8 @@ body {
   font-size: 40px;
 }
 
-.donePlacement{
-    grid-column: 2;
+.donePlacement {
+  grid-column: 2;
 }
 .doneBtn {
   background-color: #a1e58c;
@@ -190,282 +190,281 @@ body {
 
 /* Adding Numbers Page */
 .numbersBg {
-    background-color: #AA9DD1;
-    background-image: url("../assets/file (18).png");
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  background-color: #aa9dd1;
+  background-image: url("../assets/file (18).png");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .textBg{
-    background-color: #fef0f4;
-    width: 850px;
-    height: 100px;
-    border-radius: 30px;
-  }
+.textBg {
+  background-color: #fef0f4;
+  width: 850px;
+  height: 100px;
+  border-radius: 30px;
+}
 
-  .inputContainer{
-   gap: 225px;
-  }
-  .inputBox2{
-    width: 250px;
+.inputContainer {
+  gap: 225px;
+}
+.inputBox2 {
+  width: 250px;
   height: 100px;
   background-color: #fef0f4;
   border-radius: 30px;
   font-size: 20px;
-  }
-  .sumPlacement{
-    grid-row: 3;
-    grid-column: 2;
-  }
+}
+.sumPlacement {
+  grid-row: 3;
+  grid-column: 2;
+}
 
-  .sumBox{
-    width: 500px;
+.sumBox {
+  width: 500px;
   height: 100px;
   background-color: #fef0f4;
   border-radius: 30px;
   font-size: 80px;
-  }
+}
 
-  /* madlibs page */
-  .madlibsBg {
-    background-color: #ef8889;
-  }
-  
-  .madlibsGrid {
-    display: grid;
+/* madlibs page */
+.madlibsBg {
+  background-color: #ef8889;
+}
+
+.madlibsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 1fr 1fr;
+}
+
+.madlibsPlacement {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.madlibsInputBox {
+  height: 50px;
+  background-color: #fef0f4;
+  border-radius: 30px;
+}
+
+.borderRadius {
+  border-radius: 30px;
+}
+
+.madlibBox {
+  max-width: 800px;
+  height: 300px;
+  background-color: #fef0f4;
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+/* Odd or Even Page */
+.OddOrEvenBg {
+  background-color: #cee3e6;
+  background-image: url("../assets/file (22).png");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promptText {
+  width: 900px;
+}
+
+.inputBox2 {
+  width: 350px;
+  height: 100px;
+  background-color: #fef0f4;
+  border-radius: 30px;
+  font-size: 80px;
+}
+
+.resultBox {
+  width: 500px;
+  height: 100px;
+  background-color: #fef0f4;
+  font-size: 40px;
+  border-radius: 30px;
+  padding: 15px;
+}
+/* Reverse It Alphanumeric */
+.reverseItAlphanumericBg {
+  background-color: #8ad1d1;
+}
+.inputContainer2 {
+  gap: 25px;
+}
+
+.reverseItImg {
+  width: 350px;
+  height: 350px;
+}
+
+.inputField2 {
+  grid-column: 1/4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* Reverse It Numbers Page*/
+
+.reverseItNumbersBg {
+  background-color: #fcc2d2;
+}
+
+/* Magic 8 Ball Page */
+.Magic8BallBg {
+  background-color: #5eb1e7;
+}
+
+.magic8Ball {
+  grid-row: 3;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  background-image: url(../assets/file\\(20\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 650px;
+  height: 650px;
+}
+
+.magic8BallText {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+/* Greater Than Less Than */
+.greaterThanLessThanBg {
+  background-color: #c68dc6;
+}
+
+/* Restaurant Picker Page */
+.RestaurantPickerBg {
+  background-color: #9893d2;
+}
+
+.foodGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 75px;
+}
+
+.foodBox {
+  height: 325px;
+  width: 275px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.foodIcon {
+  width: 250px;
+  height: 250px;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+  .homeGrid {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: .6fr 1fr 1fr;
+    margin: 0;
+    column-gap: 10px;
   }
-
-  .madlibsPlacement{
-    grid-row: 2;
-    grid-column: 2;
-  }
-
-  .madlibsInputBox{
-    height: 50px;
-    background-color: #fef0f4;
-    border-radius: 30px;
-  }
-
-  .borderRadius{
-    border-radius: 30px;
-  }
-
-  .madlibBox{
-    max-width: 800px;
+  .gameBox {
+    width: 200px;
     height: 300px;
-    background-color: #fef0f4;
-    font-size: 15px;
-    border-radius: 30px;
-    padding: 15px;
   }
 
-  /* Odd or Even Page */
-  .OddOrEvenBg {
-    background-color: #CEE3E6;
-    background-image: url("../assets/file (22).png");
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .gameFont {
+    margin: 0;
   }
-  
-  .promptText{
-    width: 900px;
+
+  .homeBtn {
+    grid-row: 1;
+  }
+  .modeBox {
+    grid-row: 2;
+    width: 410px;
+    height: 125px;
+    font-size: 50px;
+  }
+  .font80 {
+    font-size: 40px;
+  }
+
+  .inputBox {
+    width: 410px;
+  }
+
+  .textBg {
+    width: 410px;
+  }
+  .inputContainer {
+    flex-direction: column;
+    gap: 50px;
   }
 
   .inputBox2 {
-    width: 350px;
-    height: 100px;
-    background-color: #fef0f4;
-    border-radius: 30px;
-    font-size: 80px;
+    font-size: 30px;
   }
 
-  .resultBox{
-    width: 500px;
-    height: 100px;
-    background-color: #fef0f4;
-    font-size: 40px;
-    border-radius: 30px;
-    padding: 15px;
+  .resultBox {
+    height: 300px;
   }
-  /* Reverse It Alphanumeric */
-.reverseItAlphanumericBg {
-    background-color: #8ad1d1;
+
+  .promptBg {
+    width: 410px;
   }
-  .inputContainer2{
+  .promptBg2 {
+    width: 410px;
+  }
+  .doneBtn {
+    margin-top: 10px;
+  }
+
+  .promptText {
+    width: 410px;
+  }
+
+  .magic8Ball {
+    width: 410px;
+    height: 410px;
+  }
+
+  .magic8BallText {
+    font-size: 20px;
+  }
+
+  .inputContainer2 {
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+  }
+
+  .reverseItImg {
+    width: 200px;
+    height: 200px;
+  }
+
+  .foodGrid {
+    grid-template-columns: 1fr;
     gap: 25px;
   }
+}
 
-  .reverseItImg{
-    width: 350px;
-    height: 350px;
+@media screen and (max-width: 600px) {
+  .homeGrid {
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    column-gap: 10px;
   }
-
-  .inputField2 {
-    grid-column: 1/4;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  /* Reverse It Numbers Page*/
-
-.reverseItNumbersBg {
-    background-color: #fcc2d2;
-  }
-
-  /* Magic 8 Ball Page */
-  .Magic8BallBg {
-    background-color: #5eb1e7;
-  }
-  
-  .magic8Ball{
-    grid-row: 3;
-    grid-column: 2;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    background-image: url(../assets/file\ \(20\).png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 650px;
-    height: 650px;
-  }
-
-  .magic8BallText{
-    grid-column: 2;
-    grid-row: 2;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 30px;
-    color: white;
-  }
-
-  /* Greater Than Less Than */
-  .greaterThanLessThanBg {
-    background-color: #C68DC6;
-  }
-
-  /* Restaurant Picker Page */
-  .RestaurantPickerBg {
-    background-color: #9893D2;
-  }
-
-  .foodGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 75px;
-  }
-
-  .foodBox{
-    height: 325px;
-    width: 275px;
-    border-radius: 30px;
-    cursor: pointer;
-  }
-
-  .foodIcon{
-    width: 250px;
-    height: 250px;
-  }
-
-  /* Responsiveness */
-
-  @media screen and (max-width: 768px) {
-    .homeGrid{
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: 0;
-        column-gap: 10px;
-    }
-    .gameBox{
-        width: 200px;
-        height: 300px;
-    }
-
-    .gameFont{
-        margin: 0;
-    }
-
-    .homeBtn{
-        grid-row: 1;
-    }
-    .modeBox{
-        grid-row: 2;
-        width: 410px;
-        height: 125px;
-        font-size: 50px;
-    }
-    .font80{
-        font-size: 40px;
-    }
-
-    .inputBox{
-       width: 410px;
-    }
-
-    .textBg{
-        width: 410px;
-    }
-    .inputContainer{
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .inputBox2{
-        font-size: 30px;
-    }
-
-    .resultBox{
-        height: 300px;
-    }
-
-    .promptBg{
-        width: 410px;
-    }
-    .promptBg2{
-        width: 410px;
-    }
-    .doneBtn{
-        margin-top: 10px;
-    }
-
-    .promptText{
-        width: 410px;
-    }
-
-    .magic8Ball{
-        width: 410px;
-        height: 410px;
-    }
-
-    .magic8BallText{
-        font-size: 20px;
-    }
-    
-
-    .inputContainer2{
-        flex-direction: column;
-        margin: 0;
-        align-items: center;
-    }
-
-    .reverseItImg{
-        width: 200px;
-        height: 200px;
-    }
-
-    .foodGrid{
-        grid-template-columns: 1fr;
-        gap: 25px;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .homeGrid{
-        grid-template-columns: 1fr 1fr;
-        margin: 0;
-        column-gap: 10px;
-    }
 }

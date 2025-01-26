@@ -1,5 +1,5 @@
-const doneBtn= document.getElementById("doneBtn")
-const promptText= document.getElementById("promptText")
+const doneBtn = document.getElementById("doneBtn")
+const promptText = document.getElementById("promptText")
 const input = document.getElementById("input")
 const input2 = document.getElementById("input2")
 const input3 = document.getElementById("input3")
@@ -15,7 +15,7 @@ const input10 = document.getElementById("input10")
 const apiUrl = "https://allforonealan.azurewebsites.net"
 
 
-doneBtn.addEventListener('click', async () =>{
+doneBtn.addEventListener('click', async () => {
     let Input = input.value.trim();
     let InputTwo = input2.value.trim();
     let InputThree = input3.value.trim();
@@ -29,5 +29,5 @@ doneBtn.addEventListener('click', async () =>{
     const response = await fetch(apiUrl + `/MadLib/MadLib/${Input}/${InputTwo}/${InputThree}/${InputFour}/${InputFive}/${InputSix}/${InputSeven}/${InputEight}/${InputNine}/${InputTen}`);
     const data = await response.text();
     console.log(data)
-    promptText.innerText =(data);
+    promptText.innerText = (data);
 })
