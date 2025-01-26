@@ -89,12 +89,6 @@ body {
   background-size: cover;
 }
 
-.helloGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-
 .homeBtn {
   grid-column: 1;
   height: 100px;
@@ -169,12 +163,6 @@ body {
   background-color: #c8e1f4;
 }
 
-.questionsGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 0.5fr 1fr .5fr;
-}
-
 .promptBg {
   background-color: #fef0f4;
   border-radius: 30px;
@@ -201,13 +189,6 @@ body {
 }
 
 /* Adding Numbers Page */
-.numbersGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: .5fr 1fr .1fr;
-    column-gap: 30px;
-    row-gap: 30px;
-  }
 .numbersBg {
     background-color: #AA9DD1;
     background-image: url("../assets/file (18).png");
@@ -290,11 +271,6 @@ body {
     background-size: cover;
   }
   
-  .OddOrEvenGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: .5fr 1fr .5fr .1fr;
-  }
   .promptText{
     width: 900px;
   }
@@ -316,13 +292,6 @@ body {
     padding: 15px;
   }
   /* Reverse It Alphanumeric */
-  .reverseItGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: .5fr 1fr .1fr;
-    column-gap: 30px;
-    row-gap: 30px;
-  }
 .reverseItAlphanumericBg {
     background-color: #8ad1d1;
   }
@@ -352,12 +321,6 @@ body {
     background-color: #5eb1e7;
   }
   
-  .Magic8BallGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: .2fr .5fr;
-  }
-
   .magic8Ball{
     grid-row: 3;
     grid-column: 2;
@@ -388,12 +351,6 @@ body {
   /* Restaurant Picker Page */
   .RestaurantPickerBg {
     background-color: #9893D2;
-  }
-  
-  .RestaurantPickerGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: .2fr .5fr;
   }
 
   .foodGrid{
@@ -431,13 +388,6 @@ body {
         margin: 0;
     }
 
-    .helloGrid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        display: block;
-    }
-
     .homeBtn{
         grid-row: 1;
     }
@@ -455,13 +405,6 @@ body {
        width: 410px;
     }
 
-    .numbersGrid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        display: block;
-    }
-
     .textBg{
         width: 410px;
     }
@@ -472,13 +415,6 @@ body {
 
     .inputBox2{
         font-size: 30px;
-    }
-
-    .questionsGrid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        display: block;
     }
 
     .resultBox{
@@ -495,35 +431,8 @@ body {
         margin-top: 10px;
     }
 
-    .madlibsGrid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        display: block;
-    }
-
-    .OddOrEvenGrid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        display: block;
-    }
-
     .promptText{
         width: 410px;
-    }
-
-    .ReveseItAlphanumericGrid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        display: block;
-    }
-    .Magic8BallGrid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        display: block;
     }
 
     .magic8Ball{
@@ -545,19 +454,6 @@ body {
     .reverseItImg{
         width: 200px;
         height: 200px;
-    }
-
-    .reverseItGrid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        display: block;
-    }
-    .RestaurantPickerGrid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        display: block;
     }
 
     .foodGrid{
